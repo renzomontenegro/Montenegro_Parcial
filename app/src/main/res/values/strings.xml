@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Montenegro_Parcial</string>
+    <string name="txtDescripcion">Immerse yourself in the excitement of soccer as nations compete for glory in this epic tournament</string>
+    <string name="txtTitulo">Welcome to American World Cup 2024</string>
+    <string name="txtStart">GET STARTED</string>
+    <string name="txtTituloLogin">LOGIN</string>
+    <string name="txtMenu">MENU</string>
+    <string name="txtbotonprizes">PRIZES</string>
+    <string name="TXTTEAMS">TEAMS</string>
+    <string name="TXTSTADIUMS">STADIUMS</string>
+</resources>
