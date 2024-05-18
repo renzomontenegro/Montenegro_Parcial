@@ -1,6 +1,8 @@
 package com.example.montenegro_parcial
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +18,14 @@ class Stadiums : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+
+        val btnMenu: Button = findViewById(R.id.btnMenu)
+
+        btnMenu.setOnClickListener{
+            val intent = Intent(this, Menu::class.java)
+            startActivity(intent)
+        }
+
     }
 }
