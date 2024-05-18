@@ -19,6 +19,20 @@ class Stadiums : AppCompatActivity() {
             insets
         }
 
+         fun listaEstadio(): List<Stadium_Model> {
+            var lstEstadio: ArrayList<Stadium_Model> = ArrayList()
+
+            lstEstadio.add(
+                Stadium_Model(
+                    R.drawable.estadio,
+                    "Mercedes-Benz-Stadium",
+                    "Atlanta, GA",
+                    "71.000"
+                )
+            )
+            return lstEstadio
+        }
+
 
         val btnMenu: Button = findViewById(R.id.btnMenu)
 
